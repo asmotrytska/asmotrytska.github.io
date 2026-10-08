@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Розклад занять - Група П-31</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f0f2f5;
+            padding: 25px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        .table-container {
+            width: 100%;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #c0c0c0;
+            text-align: center;
+            font-size: 16px;
+            padding: 18px 15px;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 20px;
+        }
+        .den {
+            font-weight: bold;
+            background-color: #eaeded;
+            color: #2c3e50;
+            width: 12px;
+            font-size: 18px;
+        }
+        .para {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            width: 80px;
+            font-size: 18px;
+        }
+        .aud {
+            font-weight: bold;
+            background-color: #fafafa;
+            width: 100px;
+            font-size: 16px;
+        }
+        .lekciya {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            font-weight: 500;
+        }
+        .pr {
+            background-color: #e3f2fd;
+            color: #1565c0;
+            font-weight: 500;
+        }
+        .seminar {
+            background-color: #fff3e0;
+            color: #e65100;
+            font-weight: 500;
+        }
+        .fizra {
+            background-color: #f3e5f5;
+            color: #6a1b9a;
+            font-weight: 500;
+        }
+        .vikhovna {
+            background-color: #ffe0b2;
+            color: #bf360c;
+            font-weight: bold;
+        }
+        .empty {
+            background-color: #ffffff;
+        }
+        .split-top {
+            border-bottom: 1px dashed #c0c0c0 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Розклад занять — Група П-31</h1>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Дні</th>
+                    <th>Пара</th>
+                    <th>Група П-31</th>
+                    <th>Ауд.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- ПОНЕДІЛОК -->
+                <tr>
+                    <td rowspan="5" class="den">Понеділок</td>
+                    <td class="para">1</td>
+                    <td class="lekciya">Алг. і СД (л) Стельмащук Л.В.</td>
+                    <td class="aud">217</td>
+                </tr>
+                <tr>
+                    <td class="para">2</td>
+                    <td class="fizra">Фізичне виховання Шовдра І.Р.</td>
+                    <td class="aud">СЗ</td>
+                </tr>
+                <tr>
+                    <td class="para">3</td>
+                    <td class="seminar">Осн. правознавства та патентознавства в ІТ (с) Білянський О.В.</td>
+                    <td class="aud">207</td>
+                </tr>
+                <tr>
+                    <td class="para">4</td>
+                    <td class="pr">Алг. і СД (л.р) Стельмащук Л.В.</td>
+                    <td class="aud">217</td>
+                </tr>
+                <tr>
+                    <td class="para">5</td>
+                    <td class="empty"></td>
+                    <td class="aud"></td>
+                </tr>
+
+                <!-- ВІВТОРОК -->
+                <tr>
+                    <td rowspan="6" class="den">Вівторок</td>
+                    <td class="para">1</td>
+                    <td class="lekciya">Осн. правознавства та патентознавства в ІТ (л) Білянський О.В.</td>
+                    <td class="aud">218</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="para">2</td>
+                    <td class="lekciya split-top">Інформ. технології (л) Бойко О.І.</td>
+                    <td rowspan="2" class="aud">218</td>
+                </tr>
+                <tr>
+                    <td class="pr">Інформ. технології (л.р) Бойко О.І.</td>
+                </tr>
+                <tr>
+                    <td class="para">3</td>
+                    <td class="lekciya">Вебтехнології (л) Чаплінський Р.І.</td>
+                    <td class="aud">218</td>
+                </tr>
+                <tr>
+                    <td class="para">4</td>
+                    <td class="lekciya">ООП (л) Оляніна Н.В.</td>
+                    <td class="aud">218</td>
+                </tr>
+                <tr>
+                    <td class="para">14:30</td>
+                    <td class="vikhovna">Виховна година</td>
+                    <td class="aud">101</td>
+                </tr>
+
+                <!-- СЕРЕДА -->
+                <tr>
+                    <td rowspan="6" class="den">Середа</td>
+                    <td class="para">1</td>
+                    <td class="empty"></td>
+                    <td class="aud"></td>
+                </tr>
+                <tr>
+                    <td class="para">2</td>
+                    <td class="pr">ІЗВП (л.р.) Барціховська К.І.</td>
+                    <td class="aud">212</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="para">3</td>
+                    <td class="lekciya split-top">ІЗВП (л) Барціховська К.І.</td>
+                    <td rowspan="2" class="aud">212</td>
+                </tr>
+                <tr>
+                    <td class="pr">ІЗВП (л.р.) Барціховська К.І.</td>
+                </tr>
+                <tr>
+                    <td class="para">4</td>
+                    <td class="pr">Вебтехнології (л.р) Чаплінський Р.І.</td>
+                    <td class="aud">218</td>
+                </tr>
+                <tr>
+                    <td class="para">5</td>
+                    <td class="empty"></td>
+                    <td class="aud"></td>
+                </tr>
+
+                <!-- ЧЕТВЕР -->
+                <tr>
+                    <td rowspan="6" class="den">Четвер</td>
+                    <td rowspan="2" class="para">1</td>
+                    <td rowspan="2" class="pr">Ін. мова (за проф. спрямуванням) Наконечна Ю.О., Кріль Л.В.</td>
+                    <td class="aud split-top">209</td>
+                </tr>
+                <tr>
+                    <td class="aud">101</td>
+                </tr>
+                <tr>
+                    <td class="para">2</td>
+                    <td class="pr">ООП (л.р) Бойко О.І.</td>
+                    <td class="aud">217</td>
+                </tr>
+                <tr>
+                    <td class="para">3</td>
+                    <td class="pr">ООП (пр) Оляніна Н.В.</td>
+                    <td class="aud">218</td>
+                </tr>
+                <tr>
+                    <td class="para">4</td>
+                    <td class="lekciya">УП і К (л) Чаплінський Р.І.</td>
+                    <td class="aud">217</td>
+                </tr>
+                <tr>
+                    <td class="para">5</td>
+                    <td class="empty"></td>
+                    <td class="aud"></td>
+                </tr>
+
+                <!-- П'ЯТНИЦЯ -->
+                <tr>
+                    <td rowspan="3" class="den">П'ятниця</td>
+                    <td class="para">1</td>
+                    <td class="empty"></td>
+                    <td class="aud"></td>
+                </tr>
+                <tr>
+                    <td class="para">2</td>
+                    <td class="pr">Управл. проєктами та комунікаціями (л.р) Чаплінський Р.І.</td>
+                    <td class="aud">217</td>
+                </tr>
+                <tr>
+                    <td class="para">3</td>
+                    <td class="empty"></td>
+                    <td class="aud"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
